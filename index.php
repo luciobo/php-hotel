@@ -1,5 +1,6 @@
 <?php
 
+
 $hotels = [
 
     [
@@ -40,6 +41,15 @@ $hotels = [
 
 ];
 
+foreach ($hotels as $listaHotel);
+
+echo "<pre>";
+var_dump($hotels);
+echo "</pre>";
+
+
+
+
 ?>
 
 
@@ -62,6 +72,8 @@ $hotels = [
 </head>
 
 <body>
+
+<div>ciao</div>
 
 
 </body>
