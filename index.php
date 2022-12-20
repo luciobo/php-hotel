@@ -72,32 +72,33 @@ echo "</pre>";
 </head>
 
 <body>
-
-    <div class="container pt-5">
-        <table class="table text-center">
-            <thead>
-                <th>Nome Hotel</th>
-                <th>Dettagli</th>
-                <th>Parcheggio</th>
-                <th>Voto</th>
-                <th>Distanza dal Centro</th>
-            </thead>
-            <tbody>
-                <?php
-                foreach ($hotels as $listaHotel) {
-                ?>
-                    <tr>
-                        <td><?php echo $listaHotel["name"] ?></td>
-                        <td><?php echo $listaHotel["description"] ?></td>
-                        <td><?php echo $listaHotel["parking"] ?></td>
-                        <td><?php echo $listaHotel["vote"] ?></td>
-                        <td><?php echo $listaHotel["distance_to_center"] ?></td>
-                    </tr>
-                <?php
-                }
-                ?>
-            </tbody>
-        </table>
+    <div class="bg-success min-vh-100">
+        <div class="container pt-5">
+            <table class="table text-center bg-light rounded">
+                <thead>
+                    <th>Nome Hotel</th>
+                    <th>Dettagli</th>
+                    <th>Parcheggio</th>
+                    <th>Voto</th>
+                    <th>Distanza dal Centro</th>
+                </thead>
+                <tbody>
+                    <?php
+                    foreach ($hotels as $listaHotel) {
+                    ?>
+                        <tr>
+                            <td><?php echo $listaHotel["name"] ?></td>
+                            <td><?php echo $listaHotel["description"] ?></td>
+                            <td><?php echo $listaHotel["parking"] ?></td>
+                            <td><?php echo $listaHotel["vote"] ?></td>
+                            <td><?php echo $listaHotel["distance_to_center"] ?></td>
+                        </tr>
+                    <?php
+                    }
+                    ?>
+                </tbody>
+            </table>
+        </div>
     </div>
 
 
