@@ -44,7 +44,7 @@ $hotels = [
 foreach ($hotels as $listaHotel);
 
 echo "<pre>";
-var_dump($hotels);
+// var_dump($hotels);
 echo "</pre>";
 
 
@@ -73,7 +73,32 @@ echo "</pre>";
 
 <body>
 
-<div>ciao</div>
+    <div class="container pt-5">
+        <table class="table text-center">
+            <thead>
+                <th>Nome Hotel</th>
+                <th>Dettagli</th>
+                <th>Parcheggio</th>
+                <th>Voto</th>
+                <th>Distanza dal Centro</th>
+            </thead>
+            <tbody>
+                <?php
+                foreach ($hotels as $listaHotel) {
+                ?>
+                    <tr>
+                        <td><?php echo $listaHotel["name"] ?></td>
+                        <td><?php echo $listaHotel["description"] ?></td>
+                        <td><?php echo $listaHotel["parking"] ?></td>
+                        <td><?php echo $listaHotel["vote"] ?></td>
+                        <td><?php echo $listaHotel["distance_to_center"] ?></td>
+                    </tr>
+                <?php
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
 
 
 </body>
