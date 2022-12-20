@@ -41,14 +41,9 @@ $hotels = [
 
 ];
 
-foreach ($hotels as $listaHotel);
-
-echo "<pre>";
+// echo "<pre>";
 // var_dump($hotels);
-echo "</pre>";
-
-
-
+// echo "</pre>";
 
 ?>
 
