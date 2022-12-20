@@ -1,6 +1,5 @@
 <?php
 
-
 $hotels = [
 
     [
@@ -41,6 +40,7 @@ $hotels = [
 
 ];
 
+// questo lo utilizzo per formattare il risultato della ricrca tramite var dump
 // echo "<pre>";
 // var_dump($hotels);
 // echo "</pre>";
@@ -69,6 +69,7 @@ $hotels = [
 <body>
     <div class="bg-success min-vh-100">
         <div class="container pt-5">
+            <h1 class="py-2 text-center text-light">Elenco Hotel</h1>
             <table class="table text-center bg-light rounded">
                 <thead>
                     <th>Nome Hotel</th>
