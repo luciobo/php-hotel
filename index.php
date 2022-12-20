@@ -70,6 +70,20 @@ $hotels = [
     <div class="bg-success min-vh-100">
         <div class="container pt-5">
             <h1 class="py-2 text-center text-light">Elenco Hotel</h1>
+            <div class="py-5">
+                <div class="row justify-content-center">
+                    <div class="col-5">
+                        <form action="" method="get">
+                            <div class="pb-3">
+                                <label for="exampleInputEmail1" class="form-label">Cerca Hotel</label>
+                                <input type="input" class="form-control" id="" aria-describedby="emailHelp">
+                            </div>
+                            <button type="reset" class="btn btn-primary">Cancella</button>
+                            <button type="submit" class="btn btn-primary">Cerca</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <table class="table text-center bg-light rounded">
                 <thead>
                     <th>Nome Hotel</th>
