@@ -1,5 +1,7 @@
 <?php
 
+$datiFiltrati = [];
+
 $hotels = [
 
     [
@@ -75,8 +77,8 @@ $hotels = [
                     <div class="col-5">
                         <form action="" method="get">
                             <div class="pb-3">
-                                <label for="exampleInputEmail1" class="form-label">Cerca Hotel</label>
-                                <input type="input" class="form-control" id="" aria-describedby="emailHelp">
+                                <label for="exampleInputEmail1" class="form-label">Parcheggio</label>
+                                <input type="input" class="form-control" id="" aria-describedby="emailHelp" name="parking">
                             </div>
                             <button type="reset" class="btn btn-primary">Cancella</button>
                             <button type="submit" class="btn btn-primary">Cerca</button>
